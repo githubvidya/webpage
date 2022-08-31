@@ -1,0 +1,513 @@
+.col img {
+    height: 20em;
+    width: 30em;
+    display: none;
+
+}
+
+.col p {
+    color: antiquewhite;
+    font-weight: bold;
+    font-style: initial;
+}
+
+@media (max-width: 1390px) and (min-width: 1000px) {
+    
+    .img-fluid {
+        border: 4px solid dotted rgb(175, 41, 41);
+        width: 100%;
+        height: 36rem;
+        position: relative;
+    
+        bottom: 80px;
+        z-index: 0;
+      }
+
+
+    .col img {
+        border-radius: 100%;
+        height: 20em;
+        width: 30em;
+        display: block;
+
+    }
+
+    .col p {
+        height: 150px;
+
+    }
+
+    .mb-3 {
+        font-size: bold;
+        color: blue;
+        width: 720px;
+        position: relative;
+        top: 227px;
+        margin: auto;
+        z-index: 4;
+        opacity: 0.7;
+
+    }
+
+    .btn-primary {
+        position: fixed;
+        justify-content: center;
+        margin: auto;
+        position: relative;
+        top: 221px;
+        width: 200px;
+        left: 560px;
+        z-index: 4;
+    }
+
+    .imgg {
+        border-radius: 3px;
+        height: 590px;
+        width: 1500px;
+        position: relative;
+        bottom: 345px;
+        left: 0px;
+    }
+
+    .col {
+        background: url(./p/gif2.gif);
+        z-index: 4;
+        justify-content: space-between;
+        background-color: rgb(207, 233, 217);
+    }
+
+    .box {
+        background-color: azure;
+        position: relative;
+        bottom: 290px;
+        padding-top: 50px;
+        padding-bottom: 51px;
+        margin-right: 80px;
+        border: 2px solid green;
+        border-radius: 7px;
+    }
+
+    .rounded {
+        width: 298px;
+        height: 335px;
+        position: relative;
+        bottom: 650px;
+        right: 50px;
+    }
+
+    hr {
+        position: relative;
+        left: 10px;
+        top: 200px;
+        width: 940px;
+        height: 4px;
+        background-color: rgb(204, 20, 20);
+        border: none;
+    }
+
+    ul .fst-li {
+
+        position: relative;
+        bottom: 250px;
+        left: 30px;
+        height: 50px;
+        width: 40px;
+    }
+
+    ul .scnd-li {
+        position: relative;
+        bottom: 250px;
+        left: 30px;
+        height: 50px;
+        width: 40px;
+    }
+
+    ul .thrd-li {
+        position: relative;
+        bottom: 250px;
+        left: 30px;
+        height: 50px;
+        width: 40px;
+    }
+
+    .fb {
+        position: relative;
+        bottom: 311px;
+        left: 18px;
+        margin-right: 1200px;
+        justify-content: space-between;
+    }
+
+}
+
+@media (max-width: 1000px) and (min-width: 768px) {
+    .col img {
+        border-radius: 100%;
+        height: 19em;
+        width: 26em;
+        display: block;
+    }
+
+    .col p {
+        overflow: scroll;
+        height: 190px;
+    }
+
+    .position-relative {
+        bottom: 234px;
+    }
+
+    .img-fluid {
+        border: 4px solid dotted rgb(175, 41, 41);
+        width: 100%;
+        height: 29rem;
+        position: relative;
+        left: 3px;
+        bottom: 80px;
+        z-index: 0;
+      }
+
+    .mb-3 {
+        width: 500px;
+        position: relative;
+        top: 248px;
+        left: 10px;
+        z-index: 2;
+        margin: auto;
+        opacity: 0.7;
+    }
+
+    .imgg {
+        height: 570px;
+        width: 990px;
+        position: relative;
+        bottom: 318px;
+    }
+
+    .btn-primary {
+        position: relative;
+        top: 241px;
+        width: 197px;
+        left: 407px;
+        z-index: 4;
+    }
+
+    .col {
+        position: relative;
+        background: url(./p/gif2.gif);
+        z-index: 4;
+        justify-content: space-between;
+        background-color: rgb(207, 233, 217);
+    }
+
+    .box {
+        background-color: bisque;
+        position: relative;
+        bottom: 280px;
+        padding: 50px;
+        margin-right: 80px;
+        border: 2px solid green;
+        border-radius: 7px;
+    }
+
+    .rounded {
+        width: 300px;
+        height: 300px;
+        position: relative;
+        bottom: 667px;
+        right: 20px;
+    }
+
+}
+
+
+@media (max-width: 768px) and (min-width: 596px) {
+    .col img {
+        border-radius: 50%;
+        margin: 1px;
+        height: 16em;
+        width: 23em;
+        display: block;
+    }
+
+    .col p {
+        height: 150px;
+        overflow: scroll;
+    }
+
+    .position-relative {
+        bottom: 80px;
+    }
+
+    .img-fluid {
+        border: 4px solid dotted rgb(175, 41, 41);
+        width: 100%;
+        height: 29rem;
+        position: relative;
+        bottom: 80px;
+        z-index: 0;
+      }
+
+    .col {
+        position: relative;
+        top: 110px;
+        padding: 0%;
+        background-color: rgb(207, 233, 217);
+    }
+
+    .mb-3 {
+        width: 500px;
+        position: relative;
+        top: 275px;
+        margin: auto;
+
+        z-index: 4;
+        opacity: 0.7;
+    }
+
+    .btn-primary {
+        position: relative;
+        top: 270px;
+        z-index: 4;
+        left: 137px;
+    }
+
+    .imgg {
+        height: 498px;
+        width: 855px;
+        position: relative;
+        bottom: 142px;
+        left: 5px;
+    }
+
+    .mb-3 textarea {
+        height: 100px;
+    }
+
+    .col {
+        background: url(./p/gif2.gif);
+        z-index: 4;
+        justify-content: space-between;
+        background-color: rgb(207, 233, 217);
+    }
+
+    .box {
+        background-color: bisque;
+        position: relative;
+        bottom: 140px;
+        margin-right: 110px;
+        border: 2px solid green;
+        border-radius: 7px;
+    }
+
+    .rounded {
+        width: 183px;
+        height: 211px;
+        position: relative;
+        bottom: 380px;
+        right: 29px;
+    
+    }
+}
+
+@media (max-width: 597px) and (min-width: 472px) {
+    .col {
+        position: relative;
+        top: 110px;
+        padding: 0%;
+        background-color: rgb(207, 233, 217);
+    }
+
+    .col img {
+        border-radius: 50%;
+        height: 14em;
+        width: 20em;
+        display: block;
+
+    }
+
+    .col p {
+        height: 150px;
+        overflow: scroll;
+    }
+
+    .position-relative {
+        bottom: 80px;
+    }
+
+    .img-fluid {
+        border: 4px solid dotted rgb(175, 41, 41);
+        width: 100%;
+        height: 29rem;
+        position: relative;
+        left: 3px;
+        bottom: 80px;
+        z-index: 0;
+      }
+
+
+    .mb-3 {
+        width: 426px;
+        position: relative;
+        top: 240px;
+        margin: auto;
+
+        z-index: 4;
+        opacity: 0.7;
+    }
+
+    .btn-primary {
+        position: relative;
+        top: 228px;
+        z-index: 4;
+        left: 76px;
+    }
+
+    .imgg {
+        height: 418px;
+        width: 855px;
+        position: relative;
+        bottom: 179px;
+        left: 1px;
+    }
+
+    .mb-3 textarea {
+        height: 100px;
+    }
+
+    .col {
+        background: url(./p/gif2.gif);
+        z-index: 4;
+        justify-content: space-between;
+        background-color: rgb(207, 233, 217);
+    }
+
+    .box {
+        background-color: bisque;
+        position: relative;
+        bottom: 180px;
+       
+        border: 2px solid green;
+        border-radius: 7px;
+    }
+
+    .rounded {
+        width: 183px;
+        height: 211px;
+        position: relative;
+        bottom: 380px;
+        right: 29px;
+        display: none;
+    }
+    }
+
+@media (max-width: 472px) and (min-width: 283px) {
+    .position-fixed {
+        width: 100%;
+        position: relative;
+        z-index: 5;
+      }
+    .col {
+        position: relative;
+        top: 100px;
+        padding: 0%;
+        background-color: rgb(0, 0, 0);
+    }
+
+
+    .col img {
+        background-color: black;
+        border-radius: 50%;
+        position: relative;
+        height: 11em;
+        width: 800px;
+
+        display: block;
+    }
+
+    .col p {
+        background-color: black;
+        height: 150px;
+        overflow: scroll;
+    }
+
+    .position-relative {
+        bottom: 80px;
+    }
+
+    .img-fluid {
+        border: 4px solid dotted rgb(175, 41, 41);
+        width: 100%;
+        height: 29rem;
+        position: relative;
+        left: 3px;
+        bottom: 80px;
+        z-index: 0;
+      }
+    .body {
+        overflow: scroll;
+    }
+
+    .d-flex {
+        width: 300px;
+        position: relative;
+        bottom: 122px;
+        left: 100px;
+    }
+
+    .d-flex .btn {
+        position: relative;
+        top: 37px;
+        right: 84px;
+    }
+
+    .mb-3 {
+        height: 54px;
+        width: 353px;
+        position: relative;
+        top: 220px;
+        margin: auto;
+        z-index: 4;
+        opacity: 0.7;
+        font-size: bold;
+        color: blue;
+    }
+
+    .btn-primary {
+        position: relative;
+        top: 277px;
+        z-index: 4;
+        left: 24px;
+    }
+
+    .imgg {
+        height: 444px;
+        width: 855px;
+        position: relative;
+        bottom: 144px;
+    }
+
+    .mb-3 textarea {
+        height: 100px;
+        position: relative;
+        top: 20px;
+    }
+
+    .box {
+        background-color: bisque;
+        position: relative;
+        bottom: 175px;
+        margin-right: -11px;
+        border: 2px solid green;
+        border-radius: 7px;
+    }
+
+    .rounded {
+        width: 199px;
+        height: 217px;
+        position: relative;
+        bottom: 430px;
+        right: 29px;
+        display: none;
+    }
+}

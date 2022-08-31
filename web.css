@@ -1,0 +1,125 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  background-color: rgb(15, 11, 11);
+}
+
+.position-fixed {
+  width: 100%;
+  position: relative;
+  z-index: 5;
+}
+
+.navbar {
+  background-color: black;
+  height: 80px;
+  display: flex;
+  position: relative;
+  z-index: 1;
+  opacity: 1;
+  padding-bottom: 8px;
+}
+
+.navbar-brand {
+  font-weight: bolder;
+  position: relative;
+  left: 5px;
+}
+
+/* Navbar  logo*/
+.logo {
+  height: 70px;
+  width: 69px;
+  border-radius: 50%;
+  color: blue;
+  position: relative;
+  left: 0%;
+
+}
+
+.logo img {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  color: blue;
+  position: relative;
+  bottom: 1px;
+  left: 0%;
+  z-index: 3;
+  opacity: 1;
+}
+
+.carousel-caption {
+  position: relative;
+  border-left: 3px solid red;
+  border-right: 3px solid red;
+  z-index: 4;
+  left: 20px;
+  bottom: 300px;
+  width: 600px;
+}
+
+.carousel-caption p {
+  color: rgb(138, 118, 118);
+  font-size: bold;
+  font-style: inherit;
+
+}
+
+.carousel-caption:hover p {
+  color: rgb(29, 14, 226);
+  font-size: bold;
+  font-style: inherit;
+
+}
+
+.carousel-caption h5 {
+  color: black;
+  font-size: larger;
+  font-style: inherit;
+
+}
+
+.carousel-caption:hover h5 {
+  color: rgb(224, 21, 21);
+  font-style: inherit;
+  transform: left;
+}
+
+/*colloms*/
+.position-relative {
+  bottom: 263px;
+
+}
+
+
+/*clock..... from javaScript*/
+.containerr {
+  font-weight: bolder;
+  position: absolute;
+  left: 38%;
+  top: 29px;
+}
+
+:root {
+  --primary-color: blue;
+  --danger-color: red;
+  --maxw: 333px;
+}
+
+
+.vidd img{
+  height:1000px;
+  width: 1340px;
+  position: relative;
+  right: 10px;
+}
+
+
+
+
+
+
