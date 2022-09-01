@@ -231,8 +231,10 @@
     }
 
     .col p {
+        font-size: 14px;
         height: 150px;
         overflow: scroll;
+        margin-left: 20px; 
     }
 
     .position-relative {
@@ -326,9 +328,11 @@
 
     }
 
-    .col p {
+     .col p {
+        font-size: 13px;
         height: 150px;
         overflow: scroll;
+        margin-left: 20px; ;
     }
 
     .position-relative {
@@ -425,11 +429,13 @@
         display: block;
     }
 
-    .col p {
+   .col p {
+        font-size: 11px;
         background-color: black;
         height: 150px;
         overflow: scroll;
-    }
+        margin-left: 20px; ;
+    }}
 
     .position-relative {
         bottom: 80px;
