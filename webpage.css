@@ -200,21 +200,20 @@
         background-color: rgb(207, 233, 217);
     }
 
-    .box {
+      .box {
         background-color: bisque;
         position: relative;
         bottom: 280px;
-        padding: 50px;
-        margin-right: 80px;
+        margin-right: 110px;
         border: 2px solid green;
         border-radius: 7px;
     }
 
     .rounded {
-        width: 300px;
-        height: 300px;
+        width: 230px;
+        height: 228px;
         position: relative;
-        bottom: 667px;
+        bottom: 530px;
         right: 20px;
     }
 
