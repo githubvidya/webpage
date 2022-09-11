@@ -1,4 +1,8 @@
-.col img {
+
+*{
+    margin: 0%;
+    padding: 0%;
+}.col img {
     height: 20em;
     width: 30em;
     display: none;
@@ -50,13 +54,7 @@
     }
 
     .btn-primary {
-        position: fixed;
-        justify-content: center;
-        margin: auto;
-        position: relative;
-        top: 221px;
         width: 200px;
-        left: 560px;
         z-index: 4;
     }
 
@@ -77,32 +75,14 @@
     }
 
     .box {
-        background-color: azure;
+        background-color: #e1e1e1;
         position: relative;
-        bottom: 290px;
-        padding-top: 50px;
-        padding-bottom: 51px;
-        margin-right: 80px;
-        border: 2px solid green;
+        bottom: 345px;
+        padding-top: 0px;
+        padding-bottom: -1px;
+        margin-right: 0px;
+        border: 2px solid black;
         border-radius: 7px;
-    }
-
-    .rounded {
-        width: 298px;
-        height: 335px;
-        position: relative;
-        bottom: 650px;
-        right: 50px;
-    }
-
-    hr {
-        position: relative;
-        left: 10px;
-        top: 200px;
-        width: 940px;
-        height: 4px;
-        background-color: rgb(204, 20, 20);
-        border: none;
     }
 
     ul .fst-li {
@@ -129,15 +109,9 @@
         height: 50px;
         width: 40px;
     }
-
-    .fb {
-        position: relative;
-        bottom: 311px;
-        left: 18px;
-        margin-right: 1200px;
-        justify-content: space-between;
+    .fa{
+         margin-inline-end: 100px;
     }
-
 }
 
 @media (max-width: 1000px) and (min-width: 768px) {
@@ -185,10 +159,7 @@
     }
 
     .btn-primary {
-        position: relative;
-        top: 241px;
         width: 197px;
-        left: 407px;
         z-index: 4;
     }
 
@@ -200,23 +171,17 @@
         background-color: rgb(207, 233, 217);
     }
 
-      .box {
-        background-color: bisque;
+    .box {
+        background-color: #e1e1e1;
         position: relative;
-        bottom: 280px;
-        margin-right: 110px;
-        border: 2px solid green;
+        bottom: 320px;
+        margin-right: 0px;
+        border: 2px solid black;
         border-radius: 7px;
     }
-
-    .rounded {
-        width: 230px;
-        height: 228px;
-        position: relative;
-        bottom: 530px;
-        right: 20px;
-    }
-
+    .fa{
+        margin-inline-end: 90px;
+   }
 }
 
 
@@ -233,8 +198,9 @@
         font-size: 14px;
         height: 150px;
         overflow: scroll;
-        margin-left: 20px; 
+        margin-left: 20px; ;
     }
+
 
     .position-relative {
         bottom: 80px;
@@ -267,10 +233,8 @@
     }
 
     .btn-primary {
-        position: relative;
-        top: 270px;
+        width: 200px;
         z-index: 4;
-        left: 137px;
     }
 
     .imgg {
@@ -293,23 +257,18 @@
     }
 
     .box {
-        background-color: bisque;
+        background-color: #e1e1e1;
         position: relative;
-        bottom: 140px;
-        margin-right: 110px;
-        border: 2px solid green;
+        bottom: 145px;
+        margin-right: -5px;
+        border: 2px solid black;
         border-radius: 7px;
     }
-
-    .rounded {
-        width: 183px;
-        height: 211px;
-        position: relative;
-        bottom: 380px;
-        right: 29px;
-    
+    .fa{
+        margin-inline-end: 90px;
+   }
     }
-}
+
 
 @media (max-width: 597px) and (min-width: 472px) {
     .col {
@@ -327,7 +286,7 @@
 
     }
 
-     .col p {
+    .col p {
         font-size: 13px;
         height: 150px;
         overflow: scroll;
@@ -348,7 +307,6 @@
         z-index: 0;
       }
 
-
     .mb-3 {
         width: 426px;
         position: relative;
@@ -360,10 +318,8 @@
     }
 
     .btn-primary {
-        position: relative;
-        top: 228px;
+        width: 150px;
         z-index: 4;
-        left: 76px;
     }
 
     .imgg {
@@ -386,25 +342,20 @@
     }
 
     .box {
-        background-color: bisque;
+        background-color: #e1e1e1;
         position: relative;
-        bottom: 180px;
-       
-        border: 2px solid green;
+        bottom: 179px;
+        margin-right: -5px;
+        border: 2px solid black;
         border-radius: 7px;
     }
-
-    .rounded {
-        width: 183px;
-        height: 211px;
-        position: relative;
-        bottom: 380px;
-        right: 29px;
-        display: none;
+    .fa{
+        margin-inline-end: 70px;
+   }
     }
-    }
+    
 
-@media (max-width: 472px) and (min-width: 283px) {
+@media (max-width: 472px) and (min-width: 0px) {
     .position-fixed {
         width: 100%;
         position: relative;
@@ -428,13 +379,13 @@
         display: block;
     }
 
-   .col p {
+    .col p {
         font-size: 11px;
         background-color: black;
-        height: 150px;
+        height: 133px;
         overflow: scroll;
         margin-left: 20px; ;
-    }}
+    }
 
     .position-relative {
         bottom: 80px;
@@ -463,14 +414,13 @@
     .d-flex .btn {
         position: relative;
         top: 37px;
-        right: 84px;
     }
 
     .mb-3 {
         height: 54px;
         width: 353px;
         position: relative;
-        top: 220px;
+        top: 147px;
         margin: auto;
         z-index: 4;
         opacity: 0.7;
@@ -480,16 +430,17 @@
 
     .btn-primary {
         position: relative;
-        top: 277px;
+        top: 30px;
+        width: 100px;
         z-index: 4;
-        left: 24px;
+      
     }
 
     .imgg {
-        height: 444px;
-        width: 855px;
+        height: 404px;
+        width: 860px;
         position: relative;
-        bottom: 144px;
+        bottom: 136px;
     }
 
     .mb-3 textarea {
@@ -499,20 +450,14 @@
     }
 
     .box {
-        background-color: bisque;
+        background-color: #e1e1e1;
         position: relative;
-        bottom: 175px;
-        margin-right: -11px;
-        border: 2px solid green;
+        bottom: 136px;
+        margin-right: -5px;
+        border: 2px solid black;
         border-radius: 7px;
     }
-
-    .rounded {
-        width: 199px;
-        height: 217px;
-        position: relative;
-        bottom: 430px;
-        right: 29px;
-        display: none;
+    .fa{
+        padding: 15px;
     }
 }
